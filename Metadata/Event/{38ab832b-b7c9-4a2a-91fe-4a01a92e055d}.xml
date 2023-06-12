@@ -66,11 +66,18 @@
 	</object>
 	<object class="MarkerTrack" id="{311b16d8-a10b-47da-837a-a9ef50857327}" />
 	<object class="GroupTrack" id="{cc67236b-f762-4a12-9965-747e759ffd7e}">
+		<relationship name="modules">
+			<destination>{a7b8d339-9254-4218-b1e3-db10d29fda13}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{2d7d924c-c58b-4c71-82ac-0e96e43cb4df}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{a015f8f4-1f93-4b93-99ff-4a59edcd2494}" />
+	<object class="Timeline" id="{a015f8f4-1f93-4b93-99ff-4a59edcd2494}">
+		<relationship name="modules">
+			<destination>{a7b8d339-9254-4218-b1e3-db10d29fda13}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{f73b5c2f-3dc5-402a-a25c-1d59d18654f0}">
 		<relationship name="modulators">
 			<destination>{ac71d906-e4e4-4933-9537-5862e05a440e}</destination>
@@ -91,9 +98,29 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{753364f5-19bd-4193-8a26-790d32d42dd1}" />
+	<object class="MultiSound" id="{a7b8d339-9254-4218-b1e3-db10d29fda13}">
+		<property name="triggerProbabilityEnabled">
+			<value>true</value>
+		</property>
+		<property name="isAsync">
+			<value>true</value>
+		</property>
+		<property name="length">
+			<value>10</value>
+		</property>
+		<property name="voiceStealing">
+			<value>3</value>
+		</property>
+		<property name="name">
+			<value>/music/air/ussr_defeat</value>
+		</property>
+		<relationship name="sounds">
+			<destination>{4c9f6ab5-d3dd-44a5-b98e-1bf5d7954c9d}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{2d7d924c-c58b-4c71-82ac-0e96e43cb4df}">
 		<property name="volume">
-			<value>-20.8999996</value>
+			<value>-8</value>
 		</property>
 		<property name="name">
 			<value>layer00</value>
@@ -148,6 +175,11 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{094420ef-7581-440d-ae33-7c8db5cc3c8e}" />
+	<object class="SingleSound" id="{4c9f6ab5-d3dd-44a5-b98e-1bf5d7954c9d}">
+		<relationship name="audioFile">
+			<destination>{7679e1ec-970d-42f5-9929-de776b968600}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{427a6c4d-ae0b-433e-b50f-f68ad6f52279}">
 		<relationship name="effects">
 			<destination>{ea225e82-0b2b-438b-b442-e052ad55415e}</destination>

@@ -7,6 +7,9 @@
 		<property name="outputFormat">
 			<value>1</value>
 		</property>
+		<relationship name="folder">
+			<destination>{2db56cb4-f6ad-42cc-84b3-31fcf85c0ae6}</destination>
+		</relationship>
 		<relationship name="mixer">
 			<destination>{3e2e8bf5-3837-4b4a-87df-724dcfbe8cef}</destination>
 		</relationship>

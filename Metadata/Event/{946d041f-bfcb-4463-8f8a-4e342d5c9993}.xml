@@ -67,7 +67,7 @@
 	<object class="MarkerTrack" id="{7c2ff66d-4b9e-43fd-990c-99d7ee62df60}" />
 	<object class="GroupTrack" id="{54b10631-f062-4942-9d8a-74775da8a66c}">
 		<relationship name="modules">
-			<destination>{59335bd6-244f-4c70-9b6e-d324ca0ad862}</destination>
+			<destination>{5c9ab0a5-91bb-4e11-9610-ed41937acf39}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{3ee459f8-c344-494f-8231-a6bad86c4fa6}</destination>
@@ -75,7 +75,7 @@
 	</object>
 	<object class="Timeline" id="{b9443f29-6f2e-40d9-bb50-2a71953553f4}">
 		<relationship name="modules">
-			<destination>{59335bd6-244f-4c70-9b6e-d324ca0ad862}</destination>
+			<destination>{5c9ab0a5-91bb-4e11-9610-ed41937acf39}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{5bd62b11-5d6a-4527-a553-f0fd5deaf3f6}">
@@ -98,7 +98,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{5b59db95-8eaf-470c-abfc-7eda7805e3db}" />
-	<object class="MultiSound" id="{59335bd6-244f-4c70-9b6e-d324ca0ad862}">
+	<object class="MultiSound" id="{5c9ab0a5-91bb-4e11-9610-ed41937acf39}">
 		<property name="triggerProbabilityEnabled">
 			<value>true</value>
 		</property>
@@ -114,10 +114,13 @@
 		<property name="name">
 			<value>/music/air/ussr_defeat</value>
 		</property>
+		<relationship name="sounds">
+			<destination>{e7e32f16-fc30-4f91-9765-3dcd6dda0a8c}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{3ee459f8-c344-494f-8231-a6bad86c4fa6}">
 		<property name="volume">
-			<value>-13.9899998</value>
+			<value>-8</value>
 		</property>
 		<property name="name">
 			<value>layer00</value>
@@ -172,6 +175,11 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{3d2c7c0a-068d-4b01-a997-da26976193a7}" />
+	<object class="SingleSound" id="{e7e32f16-fc30-4f91-9765-3dcd6dda0a8c}">
+		<relationship name="audioFile">
+			<destination>{7679e1ec-970d-42f5-9929-de776b968600}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{e03bfee9-0fd1-493e-93bc-c2c9bf0b1616}">
 		<relationship name="effects">
 			<destination>{259aeb47-759b-455f-9291-0b2ca37c985a}</destination>

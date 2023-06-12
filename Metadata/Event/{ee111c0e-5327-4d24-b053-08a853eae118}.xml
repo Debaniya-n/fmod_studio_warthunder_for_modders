@@ -114,10 +114,13 @@
 		<property name="name">
 			<value>/music/air/ussr_victory</value>
 		</property>
+		<relationship name="sounds">
+			<destination>{92e583e9-2b37-4362-ad50-b9b2e74a1acf}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{2aa8dab9-ddc4-47c6-bd45-f165b160cd8e}">
 		<property name="volume">
-			<value>-17.3799992</value>
+			<value>-8</value>
 		</property>
 		<property name="name">
 			<value>layer00</value>
@@ -172,6 +175,11 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{127f69bd-2bb0-465a-a1b9-642388880e3d}" />
+	<object class="SingleSound" id="{92e583e9-2b37-4362-ad50-b9b2e74a1acf}">
+		<relationship name="audioFile">
+			<destination>{452425a3-2828-4dd7-9fa4-139bcdb11038}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{bb14f9be-b204-4ae2-86ed-0e41b1d83a06}">
 		<relationship name="effects">
 			<destination>{d903ca18-4916-4477-ae14-8e208cac0a23}</destination>
