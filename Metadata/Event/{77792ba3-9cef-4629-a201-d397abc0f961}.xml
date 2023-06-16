@@ -111,8 +111,12 @@
 		<property name="looping">
 			<value>true</value>
 		</property>
+		<property name="playCount">
+			<value>2</value>
+		</property>
 		<relationship name="sounds">
-			<destination>{7af88071-1b0d-439d-99f2-a3c2bb5e4bd4}</destination>
+			<destination>{80ed91bc-22b8-46b4-bc25-0816680b38ae}</destination>
+			<destination>{95d1c097-f117-4c7d-bb60-374433e39434}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{8091d0fa-c26f-4d4f-9d07-53d59384ad9a}">
@@ -180,9 +184,20 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{1ffe4d0a-aead-4db7-af2e-2e941da6b2a5}" />
-	<object class="SingleSound" id="{7af88071-1b0d-439d-99f2-a3c2bb5e4bd4}">
-		<relationship name="audioFile">
-			<destination>{a2565568-e246-4b25-afd6-07b9575ba3fe}</destination>
+	<object class="MultiSound" id="{80ed91bc-22b8-46b4-bc25-0816680b38ae}">
+		<property name="looping">
+			<value>true</value>
+		</property>
+		<relationship name="sounds">
+			<destination>{b3ddd64f-3c9c-4dd9-a63e-9587d8d7d9b4}</destination>
+		</relationship>
+	</object>
+	<object class="MultiSound" id="{95d1c097-f117-4c7d-bb60-374433e39434}">
+		<property name="looping">
+			<value>true</value>
+		</property>
+		<relationship name="sounds">
+			<destination>{3b30244b-f629-4924-9713-c210e1823067}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{3dd4e741-342a-496d-aee0-b4497b836d1b}">
@@ -193,6 +208,16 @@
 	</object>
 	<object class="MixerBusPanner" id="{07c24ff4-4f87-4bf3-9d00-e53a57d952f4}" />
 	<object class="MixerBusFader" id="{7080a617-2811-4f3c-bd51-fed3fd430745}" />
+	<object class="SingleSound" id="{b3ddd64f-3c9c-4dd9-a63e-9587d8d7d9b4}">
+		<relationship name="audioFile">
+			<destination>{a2565568-e246-4b25-afd6-07b9575ba3fe}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{3b30244b-f629-4924-9713-c210e1823067}">
+		<relationship name="audioFile">
+			<destination>{2e1eb1e7-adc9-4884-9453-02e2252ff39c}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{aa52af77-a2ec-4107-bb96-5ff039f58659}" />
 	<object class="GainEffect" id="{924645d7-48d7-4872-b618-283a95be7f02}" />
 </objects>

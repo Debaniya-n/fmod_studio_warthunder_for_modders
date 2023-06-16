@@ -124,7 +124,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{5997b886-f2e2-4de4-8bf8-51d2c3db0971}">
 		<property name="volume">
-			<value>-17.3999996</value>
+			<value>-8</value>
 		</property>
 		<property name="name">
 			<value>layer00</value>
@@ -207,7 +207,6 @@
 			<destination>{fb345e8b-9807-4bf8-b3e1-d8aadf6212c8}</destination>
 			<destination>{45bb0d72-0392-44ae-bbf9-dc7436212ac7}</destination>
 			<destination>{75c0ef4f-e83a-4de2-a804-8347ef843bb6}</destination>
-			<destination>{dfa0bd88-70b7-4c30-9c17-c3f74f779a54}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{131750e6-68bd-42a1-a6c8-54fff249c281}">
@@ -253,7 +252,6 @@
 			<destination>{d6c10287-a81b-4d57-bbe4-8541943a91b6}</destination>
 		</relationship>
 	</object>
-	<object class="MultiSound" id="{dfa0bd88-70b7-4c30-9c17-c3f74f779a54}" />
 	<object class="MixerBusFader" id="{d178e59a-d7fd-492b-8cae-50dd3749921c}" />
 	<object class="GainEffect" id="{fdf6904e-4896-4181-a32f-4b95be930391}" />
 </objects>
